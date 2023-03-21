@@ -34,6 +34,9 @@
     padding: 0;
     margin: 0;
 }
+#home{
+    overflow-x: hidden;
+}
 
 html, body {
     background-color: var(--white-color);
@@ -42,16 +45,12 @@ html, body {
     margin: 0;
     height: 100%;
     box-sizing: border-box;
-    
 }
 
 a {
     display: inline-block;
     color: var(--primary-color);
     text-decoration: none !important
-}
-#home{
-    overflow-x: hidden;
 }
 
 .brand-name {
@@ -69,8 +68,7 @@ a {
     top: 0px;
     right: 0;
     left: 0;
-    width: 100%;
-    z-index: 1 !important;
+    z-index: 9999999999999999 !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
@@ -262,7 +260,7 @@ a {
 }
 
 #heading-w-btn:hover .hero-btns {
-    
+    border: none;
     color: var(--dark-color) !important;
 }
 
@@ -554,6 +552,7 @@ span {
 }
 
 .cta-btns:hover {
+    border: none;
     color: var(--dark-color) !important;
 }
 
