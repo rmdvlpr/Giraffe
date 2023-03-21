@@ -518,6 +518,16 @@ span {
     }
 }
 
+.map-section {
+    padding-top: 50px;
+    width: 100vw;
+  }
+  
+  .map-container {
+    height: 600px;
+    width: 100%;
+  }
+
 /* CTA */
 
 .cta-bg {
