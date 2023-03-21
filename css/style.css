@@ -287,7 +287,6 @@ a {
 .hero-section .container {
     position: relative;
     z-index: 2;
-    overflow-y: hidden;
 }
 
 .hero-btns {
