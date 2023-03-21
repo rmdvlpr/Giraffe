@@ -42,12 +42,16 @@ html, body {
     margin: 0;
     height: 100%;
     box-sizing: border-box;
+    
 }
 
 a {
     display: inline-block;
     color: var(--primary-color);
     text-decoration: none !important
+}
+#home{
+    overflow-x: hidden;
 }
 
 .brand-name {
@@ -65,7 +69,8 @@ a {
     top: 0px;
     right: 0;
     left: 0;
-    z-index: 9999999999999999 !important;
+    width: 100%;
+    z-index: 1 !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
@@ -282,6 +287,7 @@ a {
 .hero-section .container {
     position: relative;
     z-index: 2;
+    overflow-y: hidden;
 }
 
 .hero-btns {
