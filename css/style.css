@@ -257,7 +257,7 @@ a {
 }
 
 #heading-w-btn:hover .hero-btns {
-    border: none;
+    
     color: var(--dark-color) !important;
 }
 
@@ -549,7 +549,6 @@ span {
 }
 
 .cta-btns:hover {
-    border: none;
     color: var(--dark-color) !important;
 }
 
